@@ -13,49 +13,7 @@ This project is a full-featured web application that demonstrates the following:
 - Database: MongoDB, JSON (simulated DB), Redis (for caching)
 - Tools: Postman, Google OAuth, GeoAPI
 
----
-
-## ✅ Completed Tasks
-
-### 1. **HTML Structure and Basic Server Interaction**
-- Built a static form
-- Setup Express server with EJS templating
-- Rendered pages dynamically using server-side rendering
-
-### 2. **Form Styling, Validation, and Server Handling**
-- Used inline CSS & JS for basic styling and validation
-- Implemented form validation on both client and server sides
-
-### 3. **Advanced CSS & Responsive Design**
-- Designed multi-section responsive layout using **Bootstrap** and **TailwindCSS**
-- Added animations and transitions for improved UX
-
-### 4. **Complex Form Validation & DOM Manipulation**
-- Password strength checker
-- Dynamic form behavior with vanilla JS
-- Simulated client-side routing
-
-### 5. **API Integration and Front-End Interaction**
-- Created custom RESTful API with CRUD operations
-- Interacted with API using Fetch
-- Dynamically displayed server data on the frontend
-
-### 6. **Database Integration and User Authentication**
-- User registration and login logic
-- Stored user data in JSON file (simulated DB)
-- Tested endpoints using **Postman**
-
-### 7. **External API Integration & Rate Limiting**
-- Integrated **GeoAPI** to fetch user location
-- Used **Google OAuth** for authentication
-- Applied **rate limiting** to secure APIs (100 req/min)
-
-### 8. **Advanced Server-Side Functionality**
-- Created middleware for request logging and parsing
-- Implemented **Redis caching** to improve performance
-- Explored task queues for future learning
-
----
+--- 
 
 ## 🚀 How to Run the Project
 
@@ -73,3 +31,57 @@ git clone https://github.com/Saravanaanandh/Cognifyz-internship.git
 cd Cognifyz-internship
 npm install
 npm start
+
+
+### ⚙️ Install and Run Redis (Linux/WSL)
+
+If you don’t have Redi, then install:
+
+```bash
+sudo apt update
+sudo apt install redis
+redis-server
+```
+
+To confirm Redis is working:
+
+```bash
+redis-cli ping
+# Output should be: PONG
+```
+
+---
+
+### 🌐 Start the Server
+
+```bash
+npm start
+```
+
+Navigate to: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🛡️ Requesting `.env` File (Secure Data)
+
+This project requires an `.env` file that contains sensitive credentials such as API keys, tokens, and secret configs. For security reasons, the file is **not uploaded publicly**.
+
+🔐 If you need the `.env` file to run this project:
+
+👉 Click the button below to request access via email:
+
+<p align="left">
+  <a href="mailto:saravanawebdev@gmail.com?subject=Request for .env file&body=Hi, I’ve cloned your full stack internship project and would like access to the .env file. Please share it with me." style="background-color: #0078d4; color: white; border: none; padding: 10px 15px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+      📧 Request .env File 
+  </a>
+</p>
+
+I’ll verify and send it immediately to you via Gmail.
+
+---
+
+## 📧 Contact
+### Saravana
+- 📫 Gmail: saravanawebdev@gmail.com
+- 🔗 LinkedIn: [Saravana](https://linkedin.com/in/saravanawebdev)
+- 💻 GitHub: [Saravanaanandh](https://github.com/Saravanaanandh)
