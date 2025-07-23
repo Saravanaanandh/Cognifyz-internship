@@ -76,6 +76,8 @@ This project requires an `.env` file that contains sensitive credentials such as
   </a>
 </p>
 
+📩 [Request](mailto:saravanawebdev@gmail.com?subject=Request%20for%20.env%20file&body=Hi%2C%20I%E2%80%99ve%20cloned%20your%20project%20and%20would%20like%20the%20.env%20file.%20Please%20share%20it%20with%20me.)
+
 I’ll verify and send it immediately to you via Gmail.
 
 ---
