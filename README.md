@@ -10,7 +10,7 @@ This project is a full-featured web application that demonstrates the following:
 
 - Frontend: HTML, CSS, JavaScript, Bootstrap, TailwindCSS
 - Backend: Node.js, Express.js
-- Database: JSON (simulated DB), Redis (for caching)
+- Database: MongoDB, JSON (simulated DB), Redis (for caching)
 - Tools: Postman, Google OAuth, GeoAPI
 
 ---
