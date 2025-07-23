@@ -35,7 +35,7 @@ npm start
 
 ### ⚙️ Install and Run Redis (Linux/WSL)
 
-If you don’t have Redi, then install:
+If you don’t have Redis, then install:
 
 ```bash
 sudo apt update
