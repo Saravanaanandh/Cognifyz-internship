@@ -1,0 +1,101 @@
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+a{
+    cursor: pointer;
+    text-decoration: none; 
+}
+ul{
+    margin-right: 20px;
+}
+li a{
+    color: white;
+    position: relative;
+    font-weight: bold;
+}
+li:hover a{
+    color: rgb(0, 229, 255);
+}
+li a::after{
+    content: ' ';
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 229, 255);
+    border-radius: 3px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: .4s;
+}
+li:hover a::after{
+    width: 100%;
+}
+button{
+    padding: 10px;
+    outline: none; 
+}
+body{
+    width: 100%;
+    background-color: #030b26;
+    color: white;
+}
+
+header{
+   padding: 5px 15px;
+}
+
+header .btns{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.btns .icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    background-color: rgb(9, 79, 9);
+    color: white;
+}
+.btns .logout{
+    border-radius: 5px;
+    border: 1px solid yellow;
+    background-color: transparent; 
+}
+.btns .logout:not(:hover) a{
+    color: yellow;
+    
+}
+.btns .logout:hover{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+main{ 
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+footer{
+    text-align: center;
+}
+
+#contact form div{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+input{
+    outline: none;
+    border-bottom: 1px solid white;
+}
+textarea{
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+} 

@@ -1,0 +1,19 @@
+aside button{
+    background-color: rgb(133, 171, 255);
+    color: rgb(29, 23, 197);
+    border-radius: 5px; 
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+aside button.active,
+aside button:hover{
+    background: linear-gradient(to right, rgb(0, 8, 255),rgb(255, 0, 234));
+    color: white;
+}
+.courses .course{
+    display: none;
+}
+.courses .course.shown{
+    display: grid;
+}

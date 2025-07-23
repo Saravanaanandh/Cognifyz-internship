@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="w-[100%] min-h-[100vh] bg-[#030b26] text-white">
+    <h1 class="w-full text-center text-[2rem] font-bold">Profile page</h1>
+    <div class="flex justify-center items-center mt-10">
+        <div class="w-[300px] flex flex-col justify-center items-center shadow-md shadow-cyan-700 p-5 rounded-md"> 
+            <div class="my-5 flex justify-center items-center">
+                <img class="w-34 rounded-full" id="profilepic" alt="img" src="./assets/user1.webp">
+            </div>
+            <div class="w-full flex flex-col gap-5">
+                <div class="flex items-center justify-between px-3 py-2 border-b-[1px] border-white">
+                    <p class="font-bold">Name</p>
+                    <div class="flex items-center gap-3 w-[150px]">
+                        <form id="edit_form">
+                            <input type="text" id="edit_name" name="name" class="w-[120px] border-[1px] rounded-sm border-white hidden">
+                        </form>
+                        <p id="profile_name" class="w-[130px] text-end"></p>
+                        <span><i id="edit_icon" class="fa-solid fa-pen-to-square inline-block cursor-pointer"></i></span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center px-3 py-2 border-b-[1px] border-white">
+                    <p class="font-bold">Email</p>
+                    <p id="profile_email" class="w-[150px] text-end"></p>
+                </div>
+                <div class="flex justify-between items-center px-3 py-2 border-b-[1px] border-white">
+                    <p class="font-bold">Created on</p>
+                    <p id="profile_date" class="w-[150px] text-end"></p>
+                </div>
+                <div class="flex justify-between items-center px-3 py-2 border-b-[1px] border-white">
+                    <p class="font-bold">Location</p>
+                    <p id="location" class="w-[150px] text-end"></p>
+                </div>
+            </div>
+            <div class="my-5">
+                <button  id="logout" class="cursor-pointer px-5 py-2 rounded-md border-[1px] border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black duration-[.3s]">Logout</button> 
+            </div> 
+        </div>
+
+    </div>
+    <script src="index.js"> 
+    </script>
+</body>
+</html>
