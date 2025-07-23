@@ -74,9 +74,7 @@ This project requires an `.env` file that contains sensitive credentials such as
   <a href="mailto:saravanawebdev@gmail.com?subject=Request for .env file&body=Hi, I’ve cloned your full stack internship project and would like access to the .env file. Please share it with me." style="background-color: #0078d4; color: white; border: none; padding: 10px 15px; font-size: 16px; border-radius: 5px; cursor: pointer;">
       📧 Request .env File 
   </a>
-</p>
-
-📩 [Request](mailto:saravanawebdev@gmail.com?subject=Request%20for%20.env%20file&body=Hi%2C%20I%E2%80%99ve%20cloned%20your%20project%20and%20would%20like%20the%20.env%20file.%20Please%20share%20it%20with%20me.)
+</p> 
 
 I’ll verify and send it immediately to you via Gmail.
 
